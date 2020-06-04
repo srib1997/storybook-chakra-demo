@@ -95,7 +95,7 @@ const gg = () => {
         <Container>
           <Box maxW="xl" mx="auto" textAlign="center">
             <Heading as="h1" size="xl" fontWeight="semibold">
-              Build accessible React apps & websites
+              Build accessible React apps & websitess
               <Box as="span" color="teal.500">
                 {" "}
                 with speed
