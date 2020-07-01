@@ -22,6 +22,7 @@ import * as Chakra from "@chakra-ui/core";
 import * as ReactMdIcons from "react-icons/md";
 import NextLink from "next/link";
 import App from "../App";
+import imageFile from '../static/img.jpg';
 
 const Container = props => (
   <Box width="full" maxWidth="1280px" mx="auto" px={6} {...props} />
@@ -91,6 +92,7 @@ const gg = () => {
   return (
     <Box mb={20}>
       <Header />
+      <img src={imageFile} />
       <Box as="section" pt={40} pb={24}>
         <Container>
           <Box maxW="xl" mx="auto" textAlign="center">
